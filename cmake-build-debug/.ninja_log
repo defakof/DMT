@@ -1,0 +1,21 @@
+# ninja log v6
+4	534	7505108708773462	build.ninja	8691609c0a8312d0
+12	746	7505132283620435	DMT_autogen/timestamp	a59b3b026b082669
+12	746	7505132283620435	DMT_autogen/mocs_compilation.cpp	a59b3b026b082669
+12	746	7505132283620435	D:/EBATNYA/personalstuff/DMT/cmake-build-debug/DMT_autogen/timestamp	a59b3b026b082669
+12	746	7505132283620435	D:/EBATNYA/personalstuff/DMT/cmake-build-debug/DMT_autogen/mocs_compilation.cpp	a59b3b026b082669
+746	3789	7505132290964206	CMakeFiles/DMT.dir/main.cpp.obj	435dcb247db99e9
+1258	1309	7505106059165824	CMakeFiles/DMT.dir/DMT_autogen/mocs_compilation.cpp.obj	e6ea14eb9423b5ee
+3790	4080	7505132321399387	DMT.exe	9f63e087e1a75c1c
+13	718	7505134300954513	DMT_autogen/timestamp	a59b3b026b082669
+13	718	7505134300954513	DMT_autogen/mocs_compilation.cpp	a59b3b026b082669
+13	718	7505134300954513	D:/EBATNYA/personalstuff/DMT/cmake-build-debug/DMT_autogen/timestamp	a59b3b026b082669
+13	718	7505134300954513	D:/EBATNYA/personalstuff/DMT/cmake-build-debug/DMT_autogen/mocs_compilation.cpp	a59b3b026b082669
+719	3808	7505134308010657	CMakeFiles/DMT.dir/main.cpp.obj	435dcb247db99e9
+3808	4088	7505134338899229	DMT.exe	9f63e087e1a75c1c
+13	686	7505135069923567	DMT_autogen/timestamp	a59b3b026b082669
+13	686	7505135069923567	DMT_autogen/mocs_compilation.cpp	a59b3b026b082669
+13	686	7505135069923567	D:/EBATNYA/personalstuff/DMT/cmake-build-debug/DMT_autogen/timestamp	a59b3b026b082669
+13	686	7505135069923567	D:/EBATNYA/personalstuff/DMT/cmake-build-debug/DMT_autogen/mocs_compilation.cpp	a59b3b026b082669
+687	3650	7505135076674132	CMakeFiles/DMT.dir/main.cpp.obj	435dcb247db99e9
+3650	3925	7505135106298657	DMT.exe	9f63e087e1a75c1c
