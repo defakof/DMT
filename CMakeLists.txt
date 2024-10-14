@@ -8,10 +8,14 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_PREFIX_PATH "D:/Qt/6.8.0/mingw_64")
 
-find_package(Qt6 COMPONENTS Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Widgets Network REQUIRED)
 
-add_executable(DMT main.cpp)
-target_link_libraries(DMT PRIVATE Qt6::Widgets)
+add_executable(DMT main.cpp
+        moddingtoolsui.cpp
+        moddingtoolsui.h
+        pakscanner.cpp
+        pakscanner.h)
+target_link_libraries(DMT PRIVATE Qt6::Widgets Qt6::Network)
 
 # Deploy Qt DLLs
 if(WIN32)
@@ -31,7 +35,7 @@ if(WIN32)
                 "${QT_INSTALL_PATH}/plugins/platforms/qwindows.dll"
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>/plugins/platforms/")
     endif()
-    foreach(QT_LIB Core Gui Widgets)
+    foreach(QT_LIB Core Gui Widgets Network)
         add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
                 COMMAND ${CMAKE_COMMAND} -E copy_if_different
                 "${QT_INSTALL_PATH}/bin/Qt6${QT_LIB}.dll"
